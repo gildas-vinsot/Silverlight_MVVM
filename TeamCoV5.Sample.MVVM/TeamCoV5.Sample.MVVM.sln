@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCoV5.Sample.MVVM.Silverlight", "TeamCoV5.Sample.MVVM\TeamCoV5.Sample.MVVM.Silverlight.csproj", "{252C7508-0E5D-4628-9035-FD5F94DAF3BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D500B779-B0C0-4361-82F9-C03901E3B4C2} = {D500B779-B0C0-4361-82F9-C03901E3B4C2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCoV5.Sample.MVVM.Web", "TeamCoV5.Sample.MVVM.Web\TeamCoV5.Sample.MVVM.Web.csproj", "{D500B779-B0C0-4361-82F9-C03901E3B4C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCoV5.Sample.MVVM.Services", "TeamCoV5.Sample.MVVM.Services\TeamCoV5.Sample.MVVM.Services.csproj", "{4D01A437-9B49-4E64-A287-B20C0B25AB43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCoV5.Sample.MVVM.Interfaces", "TeamCoV5.Sample.MVVM.Interfaces\TeamCoV5.Sample.MVVM.Interfaces.csproj", "{AF435B71-057A-45C6-8F0D-A6FC692EEE3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCoV5.Sample.MVVM.Models", "TeamCoV5.Sample.MVVM.Models\TeamCoV5.Sample.MVVM.Models.csproj", "{BAE53E6F-3E20-4E5E-BDA6-0D737C2D60D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{9D8DE295-F5CD-495B-96FF-F3E91281AC3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Silverlight", "Silverlight", "{9973550F-88F6-4280-8ECB-424B3A27BE7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCoV5.Sample.MVVM.Silverlight.ViewModels", "TeamCoV5.Sample.MVVM.Silverlight.ViewModels\TeamCoV5.Sample.MVVM.Silverlight.ViewModels.csproj", "{4A8BE76F-91B0-4C94-BFE8-D46661E9286E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D500B779-B0C0-4361-82F9-C03901E3B4C2} = {D500B779-B0C0-4361-82F9-C03901E3B4C2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCoV5.Sample.MVVM.Silverlight.Interfaces", "TeamCoV5.Sample.MVVM.Silverlight.Interfaces\TeamCoV5.Sample.MVVM.Silverlight.Interfaces.csproj", "{16BB5E38-30EC-4DE8-A6F7-C2F3672C9828}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{252C7508-0E5D-4628-9035-FD5F94DAF3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252C7508-0E5D-4628-9035-FD5F94DAF3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252C7508-0E5D-4628-9035-FD5F94DAF3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252C7508-0E5D-4628-9035-FD5F94DAF3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D500B779-B0C0-4361-82F9-C03901E3B4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D500B779-B0C0-4361-82F9-C03901E3B4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D500B779-B0C0-4361-82F9-C03901E3B4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D500B779-B0C0-4361-82F9-C03901E3B4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D01A437-9B49-4E64-A287-B20C0B25AB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D01A437-9B49-4E64-A287-B20C0B25AB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D01A437-9B49-4E64-A287-B20C0B25AB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D01A437-9B49-4E64-A287-B20C0B25AB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF435B71-057A-45C6-8F0D-A6FC692EEE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF435B71-057A-45C6-8F0D-A6FC692EEE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF435B71-057A-45C6-8F0D-A6FC692EEE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF435B71-057A-45C6-8F0D-A6FC692EEE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE53E6F-3E20-4E5E-BDA6-0D737C2D60D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE53E6F-3E20-4E5E-BDA6-0D737C2D60D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE53E6F-3E20-4E5E-BDA6-0D737C2D60D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE53E6F-3E20-4E5E-BDA6-0D737C2D60D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8BE76F-91B0-4C94-BFE8-D46661E9286E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8BE76F-91B0-4C94-BFE8-D46661E9286E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8BE76F-91B0-4C94-BFE8-D46661E9286E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8BE76F-91B0-4C94-BFE8-D46661E9286E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BB5E38-30EC-4DE8-A6F7-C2F3672C9828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BB5E38-30EC-4DE8-A6F7-C2F3672C9828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BB5E38-30EC-4DE8-A6F7-C2F3672C9828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BB5E38-30EC-4DE8-A6F7-C2F3672C9828}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF435B71-057A-45C6-8F0D-A6FC692EEE3B} = {9D8DE295-F5CD-495B-96FF-F3E91281AC3A}
+		{BAE53E6F-3E20-4E5E-BDA6-0D737C2D60D1} = {9D8DE295-F5CD-495B-96FF-F3E91281AC3A}
+		{4D01A437-9B49-4E64-A287-B20C0B25AB43} = {9D8DE295-F5CD-495B-96FF-F3E91281AC3A}
+		{D500B779-B0C0-4361-82F9-C03901E3B4C2} = {9D8DE295-F5CD-495B-96FF-F3E91281AC3A}
+		{252C7508-0E5D-4628-9035-FD5F94DAF3BD} = {9973550F-88F6-4280-8ECB-424B3A27BE7D}
+		{4A8BE76F-91B0-4C94-BFE8-D46661E9286E} = {9973550F-88F6-4280-8ECB-424B3A27BE7D}
+		{16BB5E38-30EC-4DE8-A6F7-C2F3672C9828} = {9973550F-88F6-4280-8ECB-424B3A27BE7D}
+	EndGlobalSection
+EndGlobal
